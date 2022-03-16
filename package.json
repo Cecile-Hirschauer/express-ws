@@ -12,13 +12,16 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
-    "localtunnel": "^2.0.2"
+    "localtunnel": "^2.0.2",
+    "sequelize": "^6.17.0",
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "jest": "^27.5.1",
+    "jest-mock-axios": "^4.5.0",
     "nodemon": "^2.0.15",
     "prettier": "^2.5.1",
     "supertest": "^6.2.2"
